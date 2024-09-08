@@ -1,6 +1,6 @@
 return {
-    Generate = { prompt = "$input", replace = true },
     Chat = { prompt = "$input" },
+    Generate = { prompt = "$input", replace = true },
     Summarize = { prompt = "Summarize the following text:\n$text" },
     Ask = { prompt = "Regarding the following text, $input:\n$text" },
     Change = {
