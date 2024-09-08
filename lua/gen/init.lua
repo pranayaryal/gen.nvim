@@ -499,7 +499,6 @@ end, {
                 table.insert(promptKeys, key)
             end
         end
-        table.sort(promptKeys)
         return promptKeys
     end
 })
